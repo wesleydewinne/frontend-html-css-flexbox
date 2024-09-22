@@ -1,1 +1,17 @@
 /*Schrijf hier jouw CSS*/
+body {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.col-1 {
+    display: flex;
+    order: 0;
+
+}
+.col-2 {
+    display: flex;
+    order: 1;
+}
+
